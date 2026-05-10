@@ -1,5 +1,6 @@
 import { ImageResponse } from "next/og";
 
+export const dynamic = "force-static";
 export const alt = "Nord Frame - nowoczesne domy szkieletowe pod klucz";
 export const size = {
   width: 1200,
