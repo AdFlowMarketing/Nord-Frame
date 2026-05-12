@@ -144,3 +144,22 @@ export function CheckCircleIcon(props: IconProps) {
     </BaseIcon>
   );
 }
+
+export function MenuIcon(props: IconProps) {
+  return (
+    <BaseIcon {...props}>
+      <path d="M4 7h16" />
+      <path d="M4 12h16" />
+      <path d="M4 17h16" />
+    </BaseIcon>
+  );
+}
+
+export function CloseIcon(props: IconProps) {
+  return (
+    <BaseIcon {...props}>
+      <path d="m6 6 12 12" />
+      <path d="M18 6 6 18" />
+    </BaseIcon>
+  );
+}
