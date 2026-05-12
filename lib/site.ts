@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "Nord Frame",
   description:
     "Budujemy energooszczędne domy szkieletowe i drewniane domy całoroczne. Realizacje pod klucz, indywidualne projekty, sprawna organizacja budowy i przejrzysty kosztorys.",
-  url: "https://nordframe.pl",
+  url: "https://nord-frame.pl",
   email: "marek.nordframe@gmail.com",
   phoneLabel: "575 338 245",
   phoneHref: "+48575338245",
