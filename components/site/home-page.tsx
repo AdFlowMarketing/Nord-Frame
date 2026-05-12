@@ -128,12 +128,20 @@ function HeroSection() {
     <section className="container-shell pt-4 md:pt-6">
       <div className="relative isolate overflow-hidden rounded-[2rem] bg-brand text-white shadow-[var(--shadow-hero)] md:rounded-[2.4rem]">
         <Image
+          src="/images/hero-section-dom-szkieletowy-mobile.png"
+          alt="Nowoczesny dom szkieletowy Nord Frame z panoramicznym przeszkleniem"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover md:hidden"
+        />
+        <Image
           src="/images/hero-section-dom-szkieletowy.png"
           alt="Nowoczesny dom szkieletowy Nord Frame z panoramicznym przeszkleniem"
           fill
           priority
           sizes="100vw"
-          className="object-cover object-[72%_center]"
+          className="hidden object-cover object-[72%_center] md:block"
         />
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(10,20,14,0.86)_0%,rgba(10,20,14,0.56)_38%,rgba(10,20,14,0.18)_70%,rgba(10,20,14,0.34)_100%)]" />
         <div className="absolute inset-x-0 top-0 h-28 bg-[linear-gradient(180deg,rgba(10,20,14,0.22),transparent)]" />

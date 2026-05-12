@@ -77,9 +77,6 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-2 md:hidden">
-          <Link href="/kontakt" className="button-dark min-h-11 px-4">
-            Kontakt
-          </Link>
           <button
             type="button"
             aria-expanded={isOpen}
